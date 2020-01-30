@@ -38,7 +38,7 @@ class Fraction:
     def __mul__(self, other):
         pass
 
-        #num = self.num * other.num
-        #den = self.den * other.den
-        #common = gcd(num,den)
-        #return Fraction(num//common,den//common)
+        num = self.num * other.num
+        den = self.den * other.den
+        common = gcd(num,den)
+        return Fraction(num//common,den//common)
